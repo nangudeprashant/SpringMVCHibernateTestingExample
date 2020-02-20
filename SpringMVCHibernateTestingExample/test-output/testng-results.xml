@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1181" started-at="2020-02-20T08:50:09Z" finished-at="2020-02-20T08:50:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1181" started-at="2020-02-20T08:50:09Z" finished-at="2020-02-20T08:50:10Z">
+      <class name="com.javaLive.springmvc.service.EmployeeServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="setUp" is-config="true" duration-ms="945" started-at="2020-02-20T08:50:09Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployeeBySsn()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="deleteEmployeeBySsn" duration-ms="56" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeBySsn -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="findAllEmployees" duration-ms="16" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="findById" duration-ms="12" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="findEmployeeBySsn" duration-ms="8" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="isEmployeeSsnUnique()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="isEmployeeSsnUnique" duration-ms="8" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEmployeeSsnUnique -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="saveEmployee" duration-ms="8" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+        <test-method status="PASS" signature="updateEmployee()[pri:0, instance:com.javaLive.springmvc.service.EmployeeServiceImplTest@4abdb505]" name="updateEmployee" duration-ms="4" started-at="2020-02-20T08:50:10Z" finished-at="2020-02-20T08:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+      </class> <!-- com.javaLive.springmvc.service.EmployeeServiceImplTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
