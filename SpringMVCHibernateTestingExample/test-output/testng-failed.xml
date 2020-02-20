@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.javaLive.springmvc.dao.EmployeeDaoImplTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="findById"/>
+          <include name="saveEmployee"/>
+          <include name="deleteEmployeeByInvalidSsn"/>
+          <include name="setUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="findAllEmployees"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="deleteEmployeeBySsn"/>
+          <include name="findEmployeeBySsn"/>
+        </methods>
+      </class> <!-- com.javaLive.springmvc.dao.EmployeeDaoImplTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
